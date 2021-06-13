@@ -1,17 +1,20 @@
 import 'dart:io';
 
 void main() {
-  masuk();
+  //masuk();
   garis();
   kota('Surabaya');
   makanan('Ayam goyen', 'tahu isi', 'tmpe ', 3);
-  hitung(
-    7000,
-    2,
-  );
+  hitung(7000, 2);
   jumlah(2000, 2000, 500);
+  ngeprin('Sayang');
+  print(dikalis(2, 3));
 }
 
+//064289
+/**
+ * @author ken
+ */
 void garis() {
   print('----------------------');
 }
@@ -41,3 +44,6 @@ void masuk() {
   var i = stdin.readLineSync();
   print('nama anda adalah $i');
 }
+
+void ngeprin(String namaa) => print(namaa);
+double dikalis(double aaa, double beee) => aaa * beee;
